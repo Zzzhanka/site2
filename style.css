@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #004085;
+    color: white;
+    cursor: url('paw-cursor.png') 16 16, auto; /* Курсор в виде лапки */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #004085;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    color: #004085;
+    margin-top: 20px;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: #004085;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: #004085;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.right {
+    background-color: white;
+    color: #004085;
+    text-align: center;
+}
+
+.right h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #004085;
+    background-color: white;
+    border: 2px solid #004085;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #004085;
+    color: white;
+}
